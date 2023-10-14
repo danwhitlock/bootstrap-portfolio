@@ -5,6 +5,7 @@
 body {
     background-color:rgb(220, 209, 184);
 }
+
 .custom-nav {
     background-color: rgb(220, 209, 184) !important;
 }
@@ -12,16 +13,12 @@ body {
 .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
-    padding-right: 50px;
+    padding-right: 25px;
 }
 
 .navbar-brand img {
     height: 100px;
-    margin-left: 50px;
-}
-
-.custom-jumbo {
-    background-color: rgb(220, 209, 184) !important;
+    padding-left: 25px;
 }
 
 .nav-item {
@@ -35,6 +32,36 @@ body {
 
 .nav-cta {
     background-color: beige;
-    border-radius: 5px;
     padding: 5px;
+}
+
+.custom-jumbo {
+    background-color: rgb(220, 209, 184) !important;
+}
+
+.custom-jumbo p {
+    font-size: 1.5rem;
+}
+
+.section-header {
+    padding: 40px 50px;
+    font-size: 3rem;
+}
+
+.card-container {
+    padding: 0px 100px;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    background-color: beige;
+    display: inline;
+    padding: 5px;
+}
+
+.card-body {
+    background-color: rgb(220, 209, 184);
 }
