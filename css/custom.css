@@ -1,0 +1,14 @@
+* {
+    font-family: 'Special Elite', monospace;
+}
+
+body {
+    background-color:rgb(195, 182, 154);
+}
+.custom-nav {
+    background-color: rgb(195, 182, 154) !important;
+}
+
+.custom-jumbo {
+    background-color: rgb(195, 182, 154) !important;
+}
