@@ -87,7 +87,7 @@ body {
 }
 
 .footer-cta {
-    display: inline;
+    display: inline-flex;
     text-decoration: none;
     background-color: beige;
     padding: 10px;
