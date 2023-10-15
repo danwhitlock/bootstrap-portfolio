@@ -1,0 +1,132 @@
+/* UNIVERSAL */
+
+* {
+    font-family: 'Special Elite', monospace;
+}
+
+:root {
+    --custom-color-one: rgb(220, 200, 184);
+    --customer-color-two: beige;
+    --text: black;
+}
+
+body {
+    background-color: var(--custom-color-one);
+}
+
+.section-header {
+    padding: 20px 0px;
+    font-size: 3rem;
+}
+
+/* HEADER & NAV */
+
+.custom-nav {
+    background-color: var(--custom-color-one) !important;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+    padding-right: 25px;
+}
+
+.navbar-brand h1 {
+    color: var(--bs-nav-link-color);
+    padding-top: 25px;
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    margin: 0px 20px;
+    font-size: 1.5rem;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.nav-cta, .work-cta {
+    background-color: var(--customer-color-two);
+    padding: 5px;
+}
+
+.nav-cta:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(135,135,135,1);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(135,135,135,1);
+    box-shadow: 5px 5px 10px 0px rgba(135,135,135,1);
+}
+
+/* JUMBOTRON */
+
+.custom-jumbo {
+    background-color: var(--custom-color-one) !important;
+}
+
+.custom-jumbo img {
+    height: 150px;
+}
+
+.custom-jumbo p {
+    font-size: 1.5rem;
+}
+
+/* WORK */
+
+.card {
+    border: none;
+    margin-top: 10px;
+}
+
+.card-title {
+    display: inline;
+    font-size: 1.5rem;
+}
+
+.card-body {
+    background-color: var(--custom-color-one);
+    padding-left: 0px;
+}
+
+.card-body p {
+    padding-top: 10px;
+}
+
+.work-cta {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.work-cta:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(135,135,135,1);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(135,135,135,1);
+    box-shadow: 5px 5px 10px 0px rgba(135,135,135,1);
+}
+
+/* FOOTER */
+
+.footer-cta {
+    display: inline-flex;
+    flex-direction: column;
+    text-decoration: none;
+    background-color: var(--customer-color-two);
+    padding: 10px;
+    margin: 30px 30px;
+    font-size: 1.5rem;
+}
+
+.footer-cta a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.footer-cta:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(135,135,135,1);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(135,135,135,1);
+    box-shadow: 5px 5px 10px 0px rgba(135,135,135,1);
+}

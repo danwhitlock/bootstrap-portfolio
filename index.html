@@ -7,9 +7,224 @@
     <!-- Bootstrap Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- Custom CSS Link -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./images/dan_whitlock-sepia.svg">
 </head>
+
 <body>
+
+
+
+    <!-- HEADER & NAV -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary custom-nav">
+            <div class="container-fluid">
+                <a class="navbar-brand nav-item align-middle" href="#">
+                    <h1 class="nav-link">D.W.</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-cta" href="mailto:email@email.com">Email Me</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            </nav>
+            <hr class="mx-4">
+    </header>
+
+
+
+<!-- JUMBOTRON -->
+
+    <div class="container-fluid bg-light p-5 custom-jumbo col-lg-10 col-md-10 col-sm-10">
+        <img src="./images/dan_whitlock-sepia.svg" alt="A small avatar of Dan's face">
+        <h2 class="display-4">My name is Dan.</h2>
+        <p class="lead">I'm a Front-End Developer, Agile Project Manager and an amateur Artist.</p>
+        <p>I spend my time learning new coding skills and looking for ways to fulfill my creative aspirations.</p>
+    </div>
+
+
+
+<!-- ABOUT ME -->
     
+    <hr class="mx-4">
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="about-me col-lg-4 col-md-4 col-sm-10 mx-auto">
+                <h2 class="section-header" id="about-me">About Me</h2>
+                <p>Based in Hampshire (UK) I'm a Front End Developer with over a decade of experience delivering critical Business and IT Projects in the Banking and Technology Industries.</p>
+
+                <p>I hold industry-recognised qualifications in Scrum, Web Development and Art & Design. In my spare time I'm a keen amateur artist and love bringing that perspective to my development projects</p>
+            </div>
+
+    <!-- SKILLS -->
+
+            <div class="skills col-lg-4 col-md-4 col-sm-10 mx-auto">
+                <h2 class="section-header" id="skills">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap (WIP)</li>
+                    <li>React (WIP)</li>
+                    <li>Node.js (WIP)</li>
+                    <li>TDD (WIP)</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+<!-- WORK -->
+
+    <hr class="mx-4">
+    <div class="container-fluid">
+    
+        <!-- Row One Start (contains one card)-->
+    
+        <div class="row">
+            
+            <!-- Project One -->
+            
+            <div class="card-container col-lg-10 col-md-10 col-sm-10 mx-auto">
+                <h2 class="section-header" id="work">Work</h2>
+                <div class="card">    
+                    <img src="./images/project-one-sepia-1.png" class="card-img-top" alt="An image of a web page Dan has built">
+                    <div class="card-body">
+                        <h5 class="card-title">Accessibility Re-factoring</h5>
+                        <p class="card-text">Refactoring starter code with semantic elements to improve accessibility.</p>
+                        <a href="https://github.com/danwhitlock/bc-accessibility-refactor" target="_blank" class="work-cta">GitHub Repository</a>
+                        <a href="https://danwhitlock.github.io/bc-accessibility-refactor/" target="_blank" class="work-cta">Deployed Page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--  Row One End  -->
+
+    <hr class="mx-4">
+    
+        <!-- Row Two Start (contains two cards)-->
+
+        <div class="row">
+
+            <!-- Project Two -->
+
+            <div class="card-container col-lg-4 col-md-4 col-sm-10 mx-auto">
+                <div class="card">
+                    <img src="./images/project-two-sepia-1.png" class="card-img-top" alt="An image of a web page Dan has built">
+                    <div class="card-body">
+                        <h5 class="card-title">Home Page</h5>
+                        <p class="card-text">An example home page built from a design brief.</p>
+                        <a href="https://github.com/danwhitlock/coursera_portfolio_project" target="_blank" class="work-cta">GitHub Repository</a>
+                        <a href="https://danwhitlock.github.io/coursera_portfolio_project/" target="_blank" class="work-cta">Deployed Page</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Three -->
+
+            <div class="card-container col-lg-4 col-md-4 col-sm-10 mx-auto">
+                <div class="card">
+                    <img src="./images/project-three-sepia-1.png" class="card-img-top" alt="An image of a web page Dan has built">
+                    <div class="card-body">
+                        <h5 class="card-title">Noughts & Crosses Game</h5>
+                        <p class="card-text">A two-player noughts and crosses game made with JavaScript.</p>
+                        <a href="https://github.com/danwhitlock/noughts_and_crosses" target="_blank" class="work-cta">GitHub Repository</a>
+                        <a href="https://danwhitlock.github.io/noughts_and_crosses/" target="_blank" class="work-cta">Deployed Page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row Two End -->
+
+    <hr class="mx-4">
+
+        <!-- Row Three Start (contains two cards)-->
+
+        <div class="row">
+
+            <!-- Project Four -->
+
+            <div class="card-container col-lg-4 col-md-4 col-sm-10 mx-auto">
+                <div class="card">
+                    <img src="./images/project-four-sepia-1.png" class="card-img-top" alt="An image of a web page Dan has built">
+                    <div class="card-body">
+                        <h5 class="card-title">Calculator</h5>
+                        <p class="card-text">A calculator made with Javascript.</p>
+                        <a href="https://github.com/danwhitlock/calculator-js" target="_blank" class="work-cta">GitHub Repository</a>
+                        <a href="https://danwhitlock.github.io/calculator-js/" target="_blank" class="work-cta">Deployed Page</a>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Project Five -->
+        
+            <div class="card-container col-lg-4 col-md-4 col-sm-10 mx-auto">
+                <div class="card">
+                    <img src="./images/project-five-sepia-1.png" class="card-img-top" alt="An image of a web page Dan has built">
+                    <div class="card-body">
+                        <h5 class="card-title">Landing Page</h5>
+                        <p class="card-text">An example landing page layout built from a design brief.</p>
+                        <a href="https://github.com/danwhitlock/landing_page_project" target="_blank" class="work-cta">GitHub Repository</a>
+                        <a href="https://danwhitlock.github.io/landing_page_project/" target="_blank" class="work-cta">Deployed Page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <hr class="mx-4">
+    </div>
+
+    <!-- Row Three End -->
+
+
+
+    <!-- FOOTER -->
+
+    <div class="container-fluid footer">
+        <div class="row">
+            <div class="footer-info text-center">
+                <ul>
+                    <li class="footer-cta">
+                        <a href="https://github.com/danwhitlock" target="_blank">GitHub</a>
+                    </li>
+                    <li class="footer-cta">
+                        <a href="#">LinkedIn</a>
+                    </li>
+                    <li class="footer-cta">
+                        <a href="#">C.V.</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<!-- Bootstrap JS & Popper -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
 </body>
 </html>
