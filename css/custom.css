@@ -1,4 +1,4 @@
-/* Universal */
+/* UNIVERSAL */
 
 * {
     font-family: 'Special Elite', monospace;
@@ -19,7 +19,7 @@ body {
     font-size: 3rem;
 }
 
-/* Header & Nav */
+/* HEADER & NAV */
 
 .custom-nav {
     background-color: var(--custom-color-one) !important;
@@ -31,9 +31,10 @@ body {
     padding-right: 25px;
 }
 
-.navbar-brand img {
-    height: 100px;
-    padding-left: 25px;
+.navbar-brand h1 {
+    color: var(--bs-nav-link-color);
+    padding-top: 25px;
+    font-size: 2.5rem;
 }
 
 .nav-item {
@@ -61,6 +62,10 @@ body {
 
 .custom-jumbo {
     background-color: var(--custom-color-one) !important;
+}
+
+.custom-jumbo img {
+    height: 150px;
 }
 
 .custom-jumbo p {
