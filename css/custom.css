@@ -35,6 +35,13 @@ body {
     padding: 5px;
 }
 
+.nav-cta:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(135,135,135,1);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(135,135,135,1);
+    box-shadow: 5px 5px 10px 0px rgba(135,135,135,1);
+}
+
 .work-cta {
     color: black;
     text-decoration: none;
@@ -43,6 +50,9 @@ body {
 .work-cta:hover {
     text-decoration: underline;
     cursor: pointer;
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(135,135,135,1);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(135,135,135,1);
+    box-shadow: 5px 5px 10px 0px rgba(135,135,135,1);
 }
 
 .custom-jumbo {
@@ -63,11 +73,37 @@ body {
 }
 
 .card-title {
-    background-color: beige;
     display: inline;
-    padding: 5px;
+    font-size: 1.5rem;
 }
 
 .card-body {
     background-color: rgb(220, 209, 184);
+    padding-left: 0px;
+}
+
+.card-body p {
+    padding-top: 10px;
+}
+
+.footer-cta {
+    display: inline;
+    text-decoration: none;
+    background-color: beige;
+    padding: 10px;
+    margin: 30px 30px;
+    font-size: 1.5rem;
+}
+
+.footer-cta a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-cta:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(135,135,135,1);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(135,135,135,1);
+    box-shadow: 5px 5px 10px 0px rgba(135,135,135,1);
 }
