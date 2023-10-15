@@ -4,8 +4,14 @@
     font-family: 'Special Elite', monospace;
 }
 
+:root {
+    --custom-color-one: rgb(220, 209, 184);
+    --customer-color-two: beige;
+    --text: black;
+}
+
 body {
-    background-color:rgb(220, 209, 184);
+    background-color: var(--custom-color-one);
 }
 
 .section-header {
@@ -16,7 +22,7 @@ body {
 /* Header & Nav */
 
 .custom-nav {
-    background-color: rgb(220, 209, 184) !important;
+    background-color: var(--custom-color-one) !important;
 }
 
 .navbar-nav {
@@ -40,7 +46,7 @@ body {
 }
 
 .nav-cta, .work-cta {
-    background-color: beige;
+    background-color: var(--customer-color-two);
     padding: 5px;
 }
 
@@ -54,7 +60,7 @@ body {
 /* JUMBOTRON */
 
 .custom-jumbo {
-    background-color: rgb(220, 209, 184) !important;
+    background-color: var(--custom-color-one) !important;
 }
 
 .custom-jumbo p {
@@ -74,7 +80,7 @@ body {
 }
 
 .card-body {
-    background-color: rgb(220, 209, 184);
+    background-color: var(--custom-color-one);
     padding-left: 0px;
 }
 
@@ -83,7 +89,7 @@ body {
 }
 
 .work-cta {
-    color: black;
+    color: var(--text);
     text-decoration: none;
 }
 
@@ -100,14 +106,14 @@ body {
 .footer-cta {
     display: inline-flex;
     text-decoration: none;
-    background-color: beige;
+    background-color: var(--customer-color-two);
     padding: 10px;
     margin: 30px 30px;
     font-size: 1.5rem;
 }
 
 .footer-cta a {
-    color: black;
+    color: var(--text);
     text-decoration: none;
 }
 
