@@ -110,6 +110,7 @@ body {
 
 .footer-cta {
     display: inline-flex;
+    flex-direction: column;
     text-decoration: none;
     background-color: var(--customer-color-two);
     padding: 10px;
