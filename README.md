@@ -42,6 +42,8 @@ The website should include the following bootstrap components:
 
   - All buttons should display a box shadow upon hover.
 
+**Design**
+
 I decided to attempt a monochromatic vintage theme for this page and whilst it is a good start, I think the design could be developed further.
 
 The finished page looks like this - 
