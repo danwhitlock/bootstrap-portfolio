@@ -4,45 +4,45 @@ This is a portfolio website I have built using bootstrap components and customis
 
 The website should include the following bootstrap components:
 
-    - A Navigation bar
+- A Navigation bar
+      
+- A navigation menu at the top. Feel free to use the navbar code provided in Bootstrap's documentation, or create your own navbar by applying the correct Bootstrap classes to your HTML.
+
+  - Include links that are applicable to your portfolio.
     
-    - A navigation menu at the top. Feel free to use the navbar code provided in Bootstrap's documentation, or create your own navbar by applying the correct Bootstrap classes to your HTML.
+  - Links should navigate to the appropriate sections 
 
-      - Include links that are applicable to your portfolio.
-  
-        - Links should navigate to the appropriate sections 
+- A hero section
 
-    - A hero section
+  - A jumbotron featuring your picture, your name, and any other information you'd like to include.
 
-        - A jumbotron featuring your picture, your name, and any other information you'd like to include.
+- A work section
 
-    - A work section
+  - A section displaying your work in grid. 
 
-      - A section displaying your work in grid. 
+    - If you need to use placeholder image use: https://placehold.co/ 
 
-        - If you need to use placeholder image use: https://placehold.co/ 
+  - Use bootstrap cards for each project.
 
-      - Use bootstrap cards for each project.
+    - The description should give a brief overview of the work.
 
-        - The description should give a brief overview of the work.
+  - Each project will eventually link to your class project work!
 
-      - Each project will eventually link to your class project work!
+- A skills section
 
-    - A skills section
+  - List out the skills you expect to learn from the bootcamp.
 
-      - List out the skills you expect to learn from the bootcamp.
+- An about / contact section.
 
-    - An about / contact section.
+  - An "About Me" section in the same row.
+      
+- A footer section.
 
-      - An "About Me" section in the same row.
-    
-    - A footer section.
+  - All hyperlinks should have a hover effect.
 
-      - All hyperlinks should have a hover effect.
+  - All buttons should display a box shadow upon hover.
 
-      - All buttons should display a box shadow upon hover.
-
-I decided to follow a monochromatic vintage theme and whilst this is a good start, I think the design could be developed further.
+I decided to attempt a monochromatic vintage theme for this page and whilst it is a good start, I think the design could be developed further.
 
 The finished page looks like this - 
 
